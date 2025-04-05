@@ -584,7 +584,7 @@ default_config["rtnRanking"] = rtn_ranking_default
 
 
 web_config = {
-    "resolutions": [resolution.value for resolution in RTN.models.Resolution],
+    "resolutions": ["r2160p", "r1080p", "r720p", "r480p", "r360p"],
     "resultFormat": ["title", "metadata", "seeders", "size", "tracker", "languages"],
 }
 
